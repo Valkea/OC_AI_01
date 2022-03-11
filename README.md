@@ -64,5 +64,3 @@ The `PATH_TO_FILE` should point to a file in which each line is considered as a 
 The `EXPECTED_LABEL` is used to compute the accuracy and recall. It represents the expected label for the whole batch (up to 100 lines) and tt can be any of the following labels: 'ara', 'eng', 'hin', 'spa' or 'zho'
 
 The app will connect to the Azure translator API in order to detect the language, and it will finally return several score and export the answers to `data/export_answers.json`
-
-Note that, once all the places are booked or the points redeemed, the flask server needs to be restarted in order to reset all the data.
