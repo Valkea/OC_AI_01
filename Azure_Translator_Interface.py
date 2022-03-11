@@ -175,7 +175,7 @@ def detect_batch(args):
 
     if lang not in ["ara", "eng", "hin", "spa", "zho"]:
         print("The provided language label is not supported.")
-        print("Please us any of the following: 'ara', 'eng', 'hin', 'spa', 'zho'")
+        print("Please use any of the following: 'ara', 'eng', 'hin', 'spa', 'zho'")
         sys.exit(0)
 
     print(f'\nLet\'s try to detect "{lang}" sentences.')
