@@ -35,6 +35,17 @@ let's create a virtual environment and install the required Python libraries
 >>> py -m pip install -r requirements.txt
 ```
 
+## Secret Keys and Endpoint
+
+In order to use the Azure API, one needs to get its own crendentials (I can't share mine indeed).
+
+On Azure's portal, *create a new Translator ressource*, then go to the *overview panel* for this ressource.
+There you will be able to *manage the Keys* and the *Endpoint* of the ressource.
+
+Create a `secrets.txt` file in the project folder, and copy KEY1 (or KEY2) on the first line and the END_POINT on the second line (the values only).
+
+Without this file and valid credentiels, the Python script won't be able to proceed.
+
 ## Notebook
 
 The provided notebook offers to discover the various steps that led to the "Azure_Translator_Interface.py" python script
