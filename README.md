@@ -44,7 +44,7 @@ There you will be able to *manage the Keys* and the *Endpoint* of the ressource.
 
 Create a `secrets.txt` file in the project folder, and copy KEY1 (or KEY2) on the first line and the END_POINT on the second line (the values only).
 
-Without this file and valid credentiels, the Python script won't be able to proceed.
+Without this file and valid credentials, the Python script won't be able to proceed.
 
 ## Notebook
 
